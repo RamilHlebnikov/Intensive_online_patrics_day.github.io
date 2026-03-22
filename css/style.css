@@ -599,6 +599,7 @@ html {
     display: flex;
     align-items: center;
     transition: var(--transition);
+    cursor: pointer;
 }
 
 .for-whom__card:hover {
@@ -624,6 +625,7 @@ html {
     z-index: 2;
     filter: drop-shadow(0 4px 8px rgba(27, 94, 32, 0.3));
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .for-whom__desc {
@@ -749,6 +751,7 @@ html {
     position: relative;
     overflow: hidden;
     cursor: pointer;
+    cursor: pointer;
 }
 
 .program__content--list:hover {
@@ -768,6 +771,7 @@ html {
     padding: 10px;
     border: 2px solid #FFD700;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .program__images:hover {
@@ -918,6 +922,7 @@ html {
     width: 349px;
     height: 451px;
     border-radius: var(--border-radius);
+    cursor: pointer;
 }
 
 .about__main--images:hover {
@@ -974,7 +979,7 @@ html {
 }
 
 .accordion-label:hover {
-    background-color: var(--secondary-color);
+    background-color: transparent !important;
 }
 
 .lesson-title {
@@ -1033,7 +1038,7 @@ html {
     overflow: hidden;
     padding: 0 25px;
     transition: max-height 0.4s ease, padding 0.4s ease;
-    background-color: var(--secondary-color);
+    background-color: transparent !important;
     font-size: 15px;
     line-height: 1.6;
     color: var(--primary-color);
@@ -1379,7 +1384,7 @@ html {
 }
 
 .accordion-label:hover {
-    background-color: var(--secondary-color);
+    background-color: transparent !important;
 }
 
 .question-title {
@@ -1444,7 +1449,7 @@ html {
     overflow: hidden;
     padding: 0 25px;
     transition: max-height 0.4s ease, padding 0.4s ease;
-    background-color: var(--secondary-color);
+    background-color: transparent !important;
     font-size: 15px;
     line-height: 1.6;
     color: var(--primary-color);
@@ -2259,7 +2264,8 @@ html {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.65);
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
     z-index: 9999;
 }
 

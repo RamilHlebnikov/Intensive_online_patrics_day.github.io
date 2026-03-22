@@ -454,7 +454,7 @@
         top: -120px;
         left: auto;
         right: 0;
-        transform: none !important;
+        cursor: pointer;
     }
 
     /* Для кого */
@@ -523,6 +523,7 @@
         position: relative;
         margin: 0 auto;
         transition: var(--transition);
+        cursor: pointer;
     }
 
     .for-whom__card:hover {
@@ -540,6 +541,7 @@
         transform: translateY(-50%);
         z-index: 2;
         filter: drop-shadow(0 4px 8px rgba(27, 94, 32, 0.3));
+        cursor: pointer;
     }
 
     .for-whom__desc {
@@ -667,6 +669,7 @@
         min-width: 0;
         background: linear-gradient(145deg, rgba(255, 255, 255, 0.1), rgba(76, 175, 80, 0.05));
         border: 2px solid rgba(76, 175, 80, 0.3);
+        cursor: pointer;
     }
 
     .program__content--list:hover {
@@ -678,7 +681,7 @@
     .program__images {
         width: 66px;
         height: 66px;
-        transform: none !important;
+        cursor: pointer;
         filter: drop-shadow(0 3px 6px rgba(27, 94, 32, 0.4));
         background: linear-gradient(135deg, #4CAF50, #2E7D32);
         border: 2px solid #FFD700;
@@ -785,6 +788,7 @@
         border-radius: var(--border-radius);
         border: 5px solid #4CAF50;
         box-shadow: 0 15px 30px rgba(27, 94, 32, 0.3), 0 0 0 10px rgba(46, 125, 50, 0.1), 0 0 0 20px rgba(76, 175, 80, 0.05);
+        cursor: pointer;
     }
 
     /* Лист уроков интенсива */
@@ -836,7 +840,7 @@
     }
 
     .accordion-label:hover {
-        background-color: var(--secondary-color);
+        background-color: transparent !important;
     }
 
     .lesson-title {
@@ -895,7 +899,7 @@
         overflow: hidden;
         padding: 0 25px;
         transition: max-height 0.4s ease, padding 0.4s ease;
-        background-color: var(--secondary-color);
+        background-color: transparent !important;
         font-size: 15px;
         line-height: 1.6;
         color: var(--primary-color);
@@ -1033,6 +1037,7 @@
         position: relative;
         margin-left: 0 !important;
         margin-right: 0 !important;
+        cursor: pointer;
     }
 
     .pricing__content--card:hover {
@@ -1090,7 +1095,7 @@
         top: -30px;
         left: 240px;
         object-fit: cover;
-        transform: none !important;
+        cursor: pointer;
     }
 
     .pricing__content--stories {
@@ -1102,7 +1107,6 @@
     }
 
     .pricing__content__images--gift {
-        transform: none !important;
         filter: drop-shadow(0 5px 10px rgba(255, 215, 0, 0.3));
     }
 
@@ -1405,7 +1409,6 @@
     .bx.bxs-cookie {
         font-size: 48px;
         cursor: pointer;
-        transform: none !important;
         order: 1;
     }
 
@@ -2113,7 +2116,7 @@
         top: -150px;
         left: auto;
         right: 0;
-        transform: none !important;
+        cursor: pointer;
     }
 
     /* Для кого */
@@ -2166,6 +2169,7 @@
         position: relative;
         margin: 0 auto;
         transition: var(--transition);
+        cursor: pointer;
     }
 
     .for-whom__card:hover {
@@ -2183,6 +2187,7 @@
         transform: translateY(-50%);
         z-index: 2;
         filter: drop-shadow(0 4px 8px rgba(27, 94, 32, 0.3));
+        cursor: pointer;
     }
 
     .for-whom__desc {
@@ -2260,6 +2265,7 @@
         position: relative;
         top: 0;
         filter: drop-shadow(0 0 20px rgba(76, 175, 80, 0.3));
+        cursor: pointer;
     }
 
     .clover-garland {
@@ -2323,6 +2329,7 @@
         background: linear-gradient(145deg, rgba(255, 255, 255, 0.1), rgba(76, 175, 80, 0.05));
         border: 2px solid rgba(76, 175, 80, 0.3);
         backdrop-filter: blur(5px);
+        cursor: pointer;
     }
 
     .program__content--list:hover {
@@ -2334,11 +2341,11 @@
     .program__images {
         width: 70px;
         height: 70px;
-        transform: none !important;
         flex-shrink: 0;
         filter: drop-shadow(0 3px 6px rgba(27, 94, 32, 0.4));
         background: linear-gradient(135deg, #4CAF50, #2E7D32);
         border: 2px solid #FFD700;
+        cursor: pointer;
     }
 
     .program__desc {
@@ -2482,6 +2489,7 @@
         border-radius: var(--border-radius);
         border: 5px solid #4CAF50;
         box-shadow: 0 15px 30px rgba(27, 94, 32, 0.3), 0 0 0 10px rgba(46, 125, 50, 0.1), 0 0 0 20px rgba(76, 175, 80, 0.05);
+        cursor: pointer;
     }
 
     .about__main--images:hover {
@@ -2539,7 +2547,7 @@
     }
 
     .accordion-label:hover {
-        background-color: var(--secondary-color);
+        background-color: transparent !important;
     }
 
     .lesson-title {
@@ -2600,7 +2608,7 @@
         overflow: hidden;
         padding: 0 30px;
         transition: max-height 0.4s ease, padding 0.4s ease;
-        background-color: var(--secondary-color);
+        background-color: transparent !important;
         font-size: 16px;
         line-height: 1.6;
         color: var(--primary-color);
@@ -2723,6 +2731,7 @@
         position: relative;
         margin-left: 0 !important;
         margin-right: 0 !important;
+        cursor: pointer;
     }
 
     .pricing__content--card:hover {
@@ -2780,7 +2789,7 @@
         top: -30px;
         left: 240px;
         object-fit: cover;
-        transform: none !important;
+        cursor: pointer;
     }
 
     .pricing__content--stories {
@@ -2793,7 +2802,7 @@
     }
 
     .pricing__content__images--gift {
-        transform: none !important;
+        cursor: pointer;
         filter: drop-shadow(0 5px 10px rgba(255, 215, 0, 0.3));
     }
 
@@ -3092,7 +3101,7 @@
 
     .bx.bxs-cookie {
         font-size: 50px;
-        transform: none !important;
+        cursor: pointer;
     }
 
     .cookie__container--label {
@@ -3570,7 +3579,7 @@
         top: -40px;
         width: 35%;
         z-index: 2;
-        transform: none !important;
+        cursor: pointer;
     }
 
     /* Контейнер для клевера */
@@ -3625,6 +3634,7 @@
         position: relative;
         margin: 0;
         transition: var(--transition);
+        cursor: pointer;
     }
 
     .for-whom__card:hover {
@@ -3642,6 +3652,7 @@
         transform: translateY(-50%);
         z-index: 2;
         filter: drop-shadow(0 4px 8px rgba(27, 94, 32, 0.3));
+        cursor: pointer;
     }
 
     .for-whom__desc {
@@ -3719,6 +3730,7 @@
         position: relative;
         top: 0;
         filter: drop-shadow(0 0 20px rgba(76, 175, 80, 0.3));
+        cursor: pointer;
     }
 
     .clover-garland {
@@ -3781,6 +3793,7 @@
         background: linear-gradient(145deg, rgba(255, 255, 255, 0.1), rgba(76, 175, 80, 0.05));
         border: 2px solid rgba(76, 175, 80, 0.3);
         backdrop-filter: blur(5px);
+        cursor: pointer;
     }
 
     .program__content--list:hover {
@@ -3793,7 +3806,7 @@
         width: 70px;
         height: 70px;
         flex-shrink: 0;
-        transform: none !important;
+        cursor: pointer;
         filter: drop-shadow(0 3px 6px rgba(27, 94, 32, 0.4));
         background: linear-gradient(135deg, #4CAF50, #2E7D32);
         border: 2px solid #FFD700;
@@ -3932,6 +3945,7 @@
         border-radius: var(--border-radius);
         border: 5px solid #4CAF50;
         box-shadow: 0 15px 30px rgba(27, 94, 32, 0.3), 0 0 0 10px rgba(46, 125, 50, 0.1), 0 0 0 20px rgba(76, 175, 80, 0.05);
+        cursor: pointer;
     }
 
     .about__main--images:hover {
@@ -4035,7 +4049,7 @@
         overflow: hidden;
         padding: 0 25px;
         transition: max-height 0.4s ease, padding 0.4s ease;
-        background-color: var(--secondary-color);
+        background-color: transparent !important;
         font-size: 16px;
         line-height: 1.6;
         color: var(--primary-color);
@@ -4142,6 +4156,7 @@
         position: relative;
         margin-left: 0 !important;
         margin-right: 0 !important;
+        cursor: pointer;
     }
 
     .pricing__content--card:hover {
@@ -4199,7 +4214,7 @@
         top: -30px;
         left: 240px;
         object-fit: cover;
-        transform: none !important;
+        cursor: pointer;
     }
 
     .pricing__content--stories {
@@ -4211,7 +4226,7 @@
     }
 
     .pricing__content__images--gift {
-        transform: none !important;
+        cursor: pointer;
         filter: drop-shadow(0 5px 10px rgba(255, 215, 0, 0.3));
     }
 
@@ -4497,7 +4512,7 @@
 
     .bx.bxs-cookie {
         font-size: 50px;
-        transform: none !important;
+        cursor: pointer;
     }
 
     .cookie__container--label {
@@ -4941,6 +4956,7 @@
         position: relative;
         margin: 0;
         transition: var(--transition);
+        cursor: pointer;
     }
 
     .for-whom__card:hover {
@@ -4958,6 +4974,7 @@
         transform: translateY(-50%);
         z-index: 2;
         filter: drop-shadow(0 4px 8px rgba(27, 94, 32, 0.3));
+        cursor: pointer;
     }
 
     .for-whom__desc {
@@ -5097,6 +5114,7 @@
         background: linear-gradient(145deg, rgba(255, 255, 255, 0.1), rgba(76, 175, 80, 0.05));
         border: 2px solid rgba(76, 175, 80, 0.3);
         backdrop-filter: blur(5px);
+        cursor: pointer;
     }
 
     .program__content--list:hover {
@@ -5112,6 +5130,7 @@
         filter: drop-shadow(0 3px 6px rgba(27, 94, 32, 0.4));
         background: linear-gradient(135deg, #4CAF50, #2E7D32);
         border: 2px solid #FFD700;
+        cursor: pointer;
     }
 
     .program__images:hover {
@@ -5249,6 +5268,7 @@
     }
 
     .about__main--images {
+        cursor: pointer;
         position: relative;
         margin: 0 auto !important;
         display: block;
@@ -5367,7 +5387,7 @@
         overflow: hidden;
         padding: 0 30px;
         transition: max-height 0.4s ease, padding 0.4s ease;
-        background-color: var(--secondary-color);
+        background-color: transparent !important;
         font-size: 17px;
         line-height: 1.6;
         color: var(--primary-color);
@@ -5467,6 +5487,7 @@
         width: 350px;
         padding: 60px 25px 0 30px;
         position: relative;
+        cursor: pointer;
     }
 
     .pricing__content--card:hover {
@@ -5590,6 +5611,7 @@
         width: 90px;
         height: 90px;
         filter: drop-shadow(0 5px 10px rgba(255, 215, 0, 0.3));
+        cursor: pointer;
     }
 
     .pricing__content__stories--text {
@@ -5881,6 +5903,7 @@
     }
 
     .bx.bxs-cookie {
+        cursor: pointer;
         font-size: 58px;
     }
 
