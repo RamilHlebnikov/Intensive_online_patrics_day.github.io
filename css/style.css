@@ -332,7 +332,7 @@ html {
     visibility: hidden;
 }
 
-/* Когда меню открыто - показан крестик, скрыт бургер */
+/* Когда меню открыто - показан крестик, а бургер скрыт */
 .burger-menu.active .menu-icon {
     opacity: 0;
     visibility: hidden;
@@ -1023,7 +1023,7 @@ html {
     transform: translateX(-50%);
 }
 
-/* Анимация при открытии - превращаем плюс в минус */
+/* Анимация при открытии - превращение плюса в минус */
 .accordion-toggle:checked + .accordion-label .icon::after {
     transform: translateX(-50%) rotate(90deg);
     opacity: 0;
@@ -1428,7 +1428,7 @@ html {
     transform: translateX(-50%);
 }
 
-/* Анимация при открытии - превращаем плюс в минус */
+/* Анимация при открытии - превращение плюса в минус */
 .accordion-toggle:checked + .accordion-label .icon::after {
     transform: translateX(-50%) rotate(90deg);
     opacity: 0;
@@ -1935,7 +1935,7 @@ html {
     }
 }
 
-/* Стили для внутренних элементов SVG (сделано прозрачнее) */
+/* Стили для внутренних элементов SVG */
 .cookie-clover-svg .st0,
 .cookie-clover-svg .st1,
 .cookie-clover-svg .st2 {
@@ -2011,7 +2011,7 @@ html {
     display: none;
 }
 
-/* Кнопка переключения - ПОЯВЛЯЕТСЯ ЧЕРЕЗ 4.5 секунды (после прелоадера) */
+/* Кнопка переключения - Появляется через 4.5 секунды (после прелоадера) */
 .patrick-toggle-btn {
     position: fixed;
     top: 20px;
@@ -2103,7 +2103,7 @@ html {
     transition: opacity 0.5s ease;
 }
 
-/* Когда checkbox отмечен - показан эффект */
+/* Когда checkbox отмечен показан эффект */
 .patrick-checkbox:checked ~ .patrick-container {
     opacity: 1;
 }
@@ -2123,7 +2123,7 @@ html {
     background-repeat: no-repeat;
 }
 
-/* Включается анимацию только когда checkbox отмечен */
+/* Включается анимация только когда checkbox отмечен */
 .patrick-checkbox:checked ~ .patrick-container .clover {
     opacity: 0.8;
     animation-timing-function: linear;

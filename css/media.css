@@ -95,7 +95,7 @@
         border-radius: 50% 50% 0 0;
     }
 
-    /* Анимация движения щёточки для мобильных */
+    /* Анимация движения щёточки */
     @keyframes brushMoveMobile {
         0% {
             transform: translateX(-50%) translateY(0) rotate(0deg);
@@ -884,7 +884,7 @@
         transform: translateX(-50%);
     }
 
-    /* Анимация при открытии - превращаем плюс в минус */
+    /* Анимация при открытии - превращение плюса в минус */
         .accordion-toggle:checked + .accordion-label .icon::after {
         transform: translateX(-50%) rotate(90deg);
         opacity: 0;
@@ -1470,9 +1470,9 @@
         padding: 0;
     }
 
-    /* ДЕНЬ СВЯТОГО ПАТРИКА - АДАПТАЦИЯ ДЛЯ МОБИЛЬНЫХ */
+    /* ДЕНЬ СВЯТОГО ПАТРИКА */
     
-    /* Кнопка переключения - МЕНЬШЕ И ВЫШЕ */
+    /* Кнопка переключения */
     .patrick-toggle-btn {
         position: fixed;
         top: 30px;
@@ -1519,12 +1519,12 @@
         }
     }
 
-    /* Падающие клеверы - МЕНЬШЕ И РЕЖЕ */
+    /* Падающие клеверы */
     .patrick-container .clover {
         top: -30px;
     }
 
-    /* Уменьшены размеры ВСЕХ клеверов примерно на 30% */
+    /* Уменьшены размеры всех клеверов */
     .clover.h1 { width: 18px; height: 18px; }
     .clover.h2 { width: 22px; height: 22px; }
     .clover.h3 { width: 15px; height: 15px; }
@@ -1588,7 +1588,7 @@
         }
     }
 
-    /* Более редкие позиции для клеверов (меньше перекрытий) */
+    /* Более редкие позиции для клеверов */
     .clover.h1 { left: 5%; }
     .clover.h2 { left: 12%; }
     .clover.h3 { left: 20%; }
@@ -1633,7 +1633,7 @@
     .clover.h39 { left: 2%; }
     .clover.h40 { left: 98%; }
 
-    /* Позиции звездочек тоже адаптирован */
+    /* Позиции звездочек тоже адаптированы */
     .sparkle.s1 { top: 15%; left: 10%; }
     .sparkle.s2 { top: 30%; left: 25%; }
     .sparkle.s3 { top: 45%; left: 45%; }
@@ -1827,7 +1827,7 @@
         }
     }
 
-    /* Текст загрузки - ВСЕ НА ОДНОЙ СТРОКЕ */
+    /* Текст загрузки */
     .loading-text {
         position: absolute;
         bottom: -35px;
@@ -2593,7 +2593,7 @@
         transform: translateX(-50%);
     }
 
-    /* Анимация при открытии - превращаем плюс в минус */
+    /* Анимация при открытии - превращение плюса в минус */
     .accordion-toggle:checked + .accordion-label .icon::after {
         transform: translateX(-50%) rotate(90deg);
         opacity: 0;
@@ -3125,9 +3125,9 @@
         order: 2;
     }
 
-    /* ДЕНЬ СВЯТОГО ПАТРИКА - АДАПТАЦИЯ ДЛЯ ПЛАНШЕТОВ */
+    /* ДЕНЬ СВЯТОГО ПАТРИКА */
     
-    /* Кнопка переключения - ЧУТЬ БОЛЬШЕ ЧЕМ НА МОБИЛЬНЫХ */
+    /* Кнопка переключения */
     .patrick-toggle-btn {
         position: fixed;
         top: 18px;
@@ -3174,12 +3174,12 @@
         }
     }
 
-    /* Падающие клеверы - СРЕДНЕГО РАЗМЕРА ДЛЯ ПЛАНШЕТОВ */
+    /* Падающие клеверы */
     .patrick-container .clover {
         top: -40px;
     }
 
-    /* Размеры клеверов для планшетов (средние между мобильными и десктопом) */
+    /* Размеры клеверов для планшетов */
     .clover.h1 { width: 22px; height: 22px; }
     .clover.h2 { width: 28px; height: 28px; }
     .clover.h3 { width: 19px; height: 19px; }
@@ -3231,7 +3231,7 @@
         box-shadow: 0 0 10px #90ee90;
     }
 
-    /* Анимация звездочек для планшетов */
+    /* Анимация звездочек */
     @keyframes sparkle {
         0%, 100% { 
             opacity: 0.3; 
@@ -3243,7 +3243,7 @@
         }
     }
 
-    /* Оптимизированные позиции для планшетов */
+    /* Оптимизированные позиции */
     .clover.h1 { left: 3%; }
     .clover.h2 { left: 10%; }
     .clover.h3 { left: 17%; }
@@ -3288,7 +3288,7 @@
     .clover.h39 { left: 5%; }
     .clover.h40 { left: 96%; }
 
-    /* Позиции звездочек для планшетов */
+    /* Позиции звездочек */
     .sparkle.s1 { top: 12%; left: 12%; }
     .sparkle.s2 { top: 28%; left: 30%; }
     .sparkle.s3 { top: 42%; left: 50%; }
@@ -3872,7 +3872,7 @@
         filter: drop-shadow(0 0 2px var(--primary-color-button));
     }
 
-    /* Стили для индикаторов - Уменьшаем расстояние между колонками */
+    /* Стили для индикаторов - Уменьшено расстояние между колонками */
     .indicators {
         display: flex;
         flex-direction: column;
@@ -4587,7 +4587,7 @@
         top: -35px;
     }
 
-    /* Размеры клеверов для планшетов */
+    /* Размеры клеверов */
     .clover.h1, .clover.h10, .clover.h19, .clover.h28, .clover.h37 { width: 20px; height: 20px; }
     .clover.h2, .clover.h11, .clover.h20, .clover.h29, .clover.h38 { width: 25px; height: 25px; }
     .clover.h3, .clover.h12, .clover.h21, .clover.h30, .clover.h39 { width: 17px; height: 17px; }
@@ -4605,7 +4605,7 @@
         box-shadow: 0 0 8px #90ee90;
     }
 
-    /* Анимация звездочек для планшетов */
+    /* Анимация звездочек */
     @keyframes sparkle {
         0%, 100% { 
             opacity: 0.3; 
@@ -4617,7 +4617,7 @@
         }
     }
 
-    /* Позиции клеверов для планшетов */
+    /* Позиции клеверов */
     .clover.h1 { left: 4%; }
     .clover.h2 { left: 11%; }
     .clover.h3 { left: 18%; }
@@ -4662,7 +4662,7 @@
     .clover.h39 { left: 6%; }
     .clover.h40 { left: 97%; }
 
-    /* Позиции звездочек для планшетов */
+    /* Позиции звездочек */
     .sparkle.s1 { top: 10%; left: 10%; }
     .sparkle.s2 { top: 25%; left: 28%; }
     .sparkle.s3 { top: 40%; left: 48%; }
@@ -5961,7 +5961,7 @@
         top: -45px;
     }
 
-    /* Размеры клеверов для больших планшетов */
+    /* Размеры клеверов */
     .clover.h1, .clover.h10, .clover.h19, .clover.h28, .clover.h37 { width: 26px; height: 26px; }
     .clover.h2, .clover.h11, .clover.h20, .clover.h29, .clover.h38 { width: 33px; height: 33px; }
     .clover.h3, .clover.h12, .clover.h21, .clover.h30, .clover.h39 { width: 22px; height: 22px; }
@@ -5991,7 +5991,7 @@
         }
     }
 
-    /* Позиции клеверов для больших планшетов */
+    /* Позиции клеверов */
     .clover.h1 { left: 2.5%; }
     .clover.h2 { left: 9%; }
     .clover.h3 { left: 16%; }
@@ -6036,7 +6036,7 @@
     .clover.h39 { left: 81%; }
     .clover.h40 { left: 91%; }
 
-    /* Позиции звездочек для больших планшетов */
+    /* Позиции звездочек */
     .sparkle.s1 { top: 12%; left: 16%; }
     .sparkle.s2 { top: 27%; left: 37%; }
     .sparkle.s3 { top: 42%; left: 57%; }
